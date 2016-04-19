@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar" />
+
+    <style name="AppDefault" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="windowActionModeOverlay">true</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+
+        <item name="android:actionModeBackground">?colorPrimary</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="android:actionModeStyle">@style/AppDefault.ActionMode</item>
+        <item name="actionModeStyle">@style/AppDefault.ActionMode</item>
+
+    </style>
+
+    <style name="AppDefault.ActionMode" parent="Base.Widget.AppCompat.ActionMode">
+        <item name="android:background">?colorPrimary</item>
+        <item name="android:backgroundSplit">?colorPrimary</item>
+    </style>
+
+    <style name="EditTextCustom" parent="android:Widget.EditText">
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+</resources>

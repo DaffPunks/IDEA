@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        card_view:cardCornerRadius="0dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="1">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_green_500"></LinearLayout>
+
+        <TextView
+            android:id="@+id/info_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp" />
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_green_500"
+            android:layout_gravity="right">
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/ic_checkbox_marked_circle_outline_white_24dp"
+                android:layout_alignBottom="@+id/card_view"
+                android:layout_alignRight="@+id/card_view"
+                android:layout_marginRight="102dp"
+                android:layout_marginEnd="102dp"
+                android:layout_centerInParent="true"></RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_below="@+id/card_view"
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        card_view:cardCornerRadius="3dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:weightSum="1">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="10dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_red_500"></RelativeLayout>
+
+        <TextView
+            android:id="@+id/info_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lorem ipsum dolor sit amet"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp" />
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="@color/md_red_500"
+            android:layout_gravity="right">
+
+            <RelativeLayout
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/ic_checkbox_marked_circle_outline_white_24dp"
+                android:layout_centerInParent="true"></RelativeLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

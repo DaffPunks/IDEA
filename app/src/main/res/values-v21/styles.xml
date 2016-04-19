@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppDefault" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:textColorPrimary">@color/colorWhite</item>
+
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="android:actionModeBackground">?colorPrimary</item>
+        <item name="actionModeBackground">?colorPrimary</item>
+        <item name="android:actionModeStyle">@style/AppDefault.ActionMode</item>
+        <item name="actionModeStyle">@style/AppDefault.ActionMode</item>
+    </style>
+
+</resources>
